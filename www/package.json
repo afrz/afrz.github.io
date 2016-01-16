@@ -1,0 +1,20 @@
+{
+  "name": "afrz.github.io",
+  "description": "AFRZ web site",
+  "author": "Alexis FR",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afrz/afrz.github.io.git"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "devDependencies": {
+    "javascript-brunch": ">= 1.0 < 1.9",
+    "css-brunch": ">= 1.0 < 1.9",
+    "uglify-js-brunch": ">= 1.0 < 1.9",
+    "clean-css-brunch": ">= 1.0 < 1.9",
+    "auto-reload-brunch": ">= 1.0 < 1.9"
+  }
+}
