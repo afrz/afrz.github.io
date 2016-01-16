@@ -1,7 +1,7 @@
 {
   "name": "afrz.github.io",
   "version": "0.0.1",
-  "main": "public/build/app.js",
+  "main": "",
   "dependencies": {},
   "overrides": {}
 }
