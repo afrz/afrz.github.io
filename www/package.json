@@ -2,7 +2,7 @@
   "name": "afrz.github.io",
   "description": "AFRZ web site",
   "author": "Alexis FR",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/afrz/afrz.github.io.git"
@@ -15,6 +15,7 @@
     "css-brunch": ">= 1.0 < 1.9",
     "uglify-js-brunch": ">= 1.0 < 1.9",
     "clean-css-brunch": ">= 1.0 < 1.9",
-    "auto-reload-brunch": ">= 1.0 < 1.9"
+    "auto-reload-brunch": ">= 1.0 < 1.9",
+    "sass-brunch": "^1.9.2"
   }
 }
