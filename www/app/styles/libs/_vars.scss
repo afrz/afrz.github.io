@@ -26,6 +26,8 @@
 		weight-bold:		700
 	);
 
+	$mainColor: #654cc9;
+
 // Palette.
 	$palette: (
 		bg:					#fff,
@@ -40,10 +42,10 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:				#4acaa8,
+			bg:				 $mainColor,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%)
+			fg:				mix($mainColor, #ffffff, 25%),
+			fg-light:		mix($mainColor, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -54,10 +56,10 @@
 		),
 
 		header: (
-			bg:				#4acaa8,
+			bg:				 $mainColor,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%),
-			border:			mix(#4acaa8, #ffffff, 90%)
+			fg:				mix($mainColor, #ffffff, 25%),
+			fg-light:		mix($mainColor, #ffffff, 40%),
+			border:			mix($mainColor, #ffffff, 90%)
 		)
 	);
