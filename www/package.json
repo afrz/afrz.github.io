@@ -8,7 +8,8 @@
     "url": "https://github.com/afrz/afrz.github.io.git"
   },
   "scripts": {
-    "start": "brunch watch --server"
+    "build": "brunch build --production",
+    "clean": "cd .. & del *.map"
   },
   "devDependencies": {
     "javascript-brunch": ">= 1.0 < 1.9",
