@@ -1,0 +1,55 @@
+@import 'libs/vars';
+
+.grid {
+	//margin-bottom: 150px;
+	// display: block;
+}
+
+#skills {
+	margin-bottom: 200px;
+}
+
+.grid-sizer,
+.grid-item
+{
+	// border: 1px solid red;
+	// width: 25%;
+	width: 25%;
+	// height: auto;
+	// height: 100px;
+	margin: 5px;
+  // float: left;
+
+	img {
+		// border: 1px solid blue;
+		border-radius: 5px;
+		width: 100%;
+		height: auto;
+		display: block;
+		// width: 90%;
+		// height: auto;
+	}
+
+	.sizeS {
+		// height: 300px;
+	}
+
+
+}
+
+.x2 {
+	width: 50%;
+}
+
+
+// /* clear fix */
+// .grid:after {
+//   content: '';
+//   display: block;
+//   clear: both;
+// }
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
