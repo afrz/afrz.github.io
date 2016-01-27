@@ -5,13 +5,13 @@ $( document ).ready(function() {
 
     // init isotope grid after all images have loaded
     $grid.isotope({
-     percentPosition: true,
-     itemSelector: '.tech',
-     layoutMode: 'masonry',
-     masonry: {
-       columnWidth: '.grid-sizer'
-     }
-   });
+       percentPosition: true,
+       itemSelector: '.tech',
+       layoutMode: 'masonry',
+       masonry: {
+         columnWidth: '.grid-sizer'
+       }
+    });
   });
 
   //to filter the skills on button clik
