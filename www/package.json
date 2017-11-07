@@ -12,11 +12,10 @@
     "clean": "cd .. & del *.map"
   },
   "devDependencies": {
-    "javascript-brunch": ">= 1.0 < 1.9",
-    "css-brunch": ">= 1.0 < 1.9",
-    "uglify-js-brunch": ">= 1.0 < 1.9",
-    "clean-css-brunch": ">= 1.0 < 1.9",
-    "auto-reload-brunch": ">= 1.0 < 1.9",
-    "sass-brunch": "^1.9.2"
+    "auto-reload-brunch": "^2.7.1",
+    "brunch": "^2.10.12",
+    "clean-css-brunch": "^2.10.0",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.10.0"
   }
 }
